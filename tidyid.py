@@ -1,7 +1,6 @@
 """Tidy IDs are sample identifiers that are easy to read and write. """
 import argparse
 import string
-from functools import wraps
 
 confusing_characters = 'BDEILNOQRSTUVZ'
 clear_characters = '0123456789ACFGHJKMPWXY'
