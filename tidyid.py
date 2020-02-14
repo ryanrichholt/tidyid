@@ -3,7 +3,7 @@ import argparse
 import string
 
 confusing_characters = 'BDEILNOQRSTUVZ'
-clear_characters = '0123456789ACFGHJKMPWXY'
+clear_characters = '123456789ACFGHJKMPWXY'
 
 
 def int_to_tid(n):
